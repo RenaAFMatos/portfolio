@@ -1,0 +1,111 @@
+.text{
+    text-align: center;
+    font-size: 15px;
+}
+
+.text h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.text h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.text h2 span{
+    color: #2672e3;
+    text-decoration: underline;
+}
+
+.logo-home{
+    width: 200px;
+    height: auto;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.card-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    height: 100px;
+    width: 100%;
+}
+
+.card{
+    padding: 30px;
+    font-size: 25px;
+    background-color:#2672e3;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 100px;
+    width: 250px;
+    height: 60px;
+}
+
+.card h3{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.card p{
+    margin-top: 0px;
+    margin-bottom: auto;
+}
+
+.card:hover{
+    box-shadow: inset 0px -120px 0px 0px #3794ff;
+    -webkit-box-shadow: inset 0px -120px 0px 0px #3794ff;
+    -moz-box-shadow: inset 0px 0px -120px 0px #3794ff;
+}
+
+.about-me{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;;
+    margin: 100px 100px;
+}
+
+.about-me h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.about-me p{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    text-wrap: wrap;
+    width: 70%;
+    text-align: justify;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    flex-direction: column;
+    margin: 100px 100px;
+}
+
+.skills h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
